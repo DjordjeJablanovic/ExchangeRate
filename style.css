@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(20, 18, 26);
+    text-align: center;
+}
+#select--wrapper{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    margin: auto;
+    width: 500px;
+    margin-top: 100px;
+}
+#valute{
+    width: 65px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
+button{
+    margin-top: 20px;
+    width: 80px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: rgba(36, 132, 193, 0.83);
+    color: #fff;
+}

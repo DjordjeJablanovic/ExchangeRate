@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="select--wrapper">
+        <input type="text" placeholder="enter value" id="from--input">
+        <select name="valute" id="from--valute" onchange="toValuteFunc()">
+            <option value="USD">USD</option>
+            <option value="RSD">RSD</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <p>INTO</p>
+        <select name="valute" id="to--valute" onchange="toValuteFunc()">
+            <option id="select" value="SELECT" selected>SELECT</option>
+            <option value="USD">USD</option>
+            <option value="RSD">RSD</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <input type="text" id="to--input">
+    </div>
+    <button id="btn">Exchange</button>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
